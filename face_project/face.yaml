@@ -1,0 +1,8 @@
+path: /home/snehal/GIT-HUB/Facedetectionandrecognition/face_project/datasets
+train: images/train
+val: images/val
+
+names:
+  0: face
+  1: face_with_mask
+  2: face_with_cap
