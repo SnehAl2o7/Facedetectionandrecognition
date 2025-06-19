@@ -34,18 +34,18 @@ This repository implements a high-accuracy, real-time **Face Detection and Recog
 
 ## 🗂️ Project Structure
 
-Facedetectionandrecognition/
-├── face_project/
-│ ├── dataset/ # YOLO-ready training images and labels
-│ ├── known_faces/ # Person-wise folders with labeled images
-│ ├── facenet_keras.h5 # Pretrained FaceNet model
-│ ├── facenet_embedding.py # FaceNet pre-processing and embedding function
-│ ├── train_yolo.py # YOLOv8 training script
-│ ├── generate_face_db.py # Generates embedding database (face_db.pkl)
-│ ├── recognize_face.py # Full inference pipeline (YOLO + FaceNet)
-│ ├── face.yaml # Dataset config for YOLOv8
-│ └── test.jpg # Sample image for testing recognition
-
+<pre> 📦 <b>Facedetectionandrecognition/</b> └──
+  📁 <b>face_project/</b>
+    ├── 📁 <b>dataset/</b>
+  # YOLO-ready training images and labels (images/train, labels/train) 
+  ├── 📁 <b>known_faces/</b> # Person-wise folders with labeled images (e.g. /vansh/, /snehal/)
+  ├── 📄 <b>facenet_keras.h5</b> # Pretrained FaceNet model 
+  ├── 📄 <b>facenet_embedding.py</b> # FaceNet pre-processing and embedding function 
+  ├── 📄 <b>train_yolo.py</b> # YOLOv8 training script
+  ├── 📄 <b>generate_face_db.py</b> # Generates embedding database (face_db.pkl) from known_faces/
+  ├── 📄 <b>recognize_face.py</b> # Full inference pipeline (YOLO + FaceNet + cosine similarity)
+  ├── 📄 <b>face.yaml</b> # Dataset config file for YOLOv8 training 
+  └── 🖼️ <b>test.jpg</b> # Sample image with multiple known/unknown faces for testing recognition </pre>
 
 
 ---
