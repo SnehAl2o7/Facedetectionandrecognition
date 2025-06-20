@@ -13,7 +13,7 @@ This repository implements a high-accuracy, real-time **Face Detection and Recog
 
 - 🧠 **YOLOv8** (Ultralytics) for face detection
 - 🔍 **FaceNet** (128D Embeddings) for face recognition
-- 😷 Support for **masked** and **capped** faces
+- 😷 Support for **masked** and **unmasked** faces
 - ✅ Designed to achieve **98%+ recognition accuracy**
 
 ---
